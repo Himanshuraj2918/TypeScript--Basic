@@ -78,7 +78,7 @@ class Bottle {
 // ********************* Access Modifier ****************************
 
 class Pendrive2 {
-    name = "Pendrive";
+    name = "Pendrive"; //by default method and variables are public
     getName() {
         console.log(this.name);  
     }
