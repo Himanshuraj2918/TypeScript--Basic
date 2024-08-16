@@ -81,7 +81,7 @@ let u1 = new User();
 // setter method()
 // Public mtlb puri class ma use karo or bahar bhi use kr skta hoi via instanceof.
 // Private ma app puri class ma use kr skata ho par bahar nhi use kr skta ho.
-// Protected
+// Protected class apna class or extended class ma use ho skta hai lekin bahar nhi use ho skta hai.
 class BankUser {
     constructor() {
         this.balance = 1200;
