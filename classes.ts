@@ -111,7 +111,7 @@ class Pendrive2 {
 // setter method()
 
 // Public mtlb puri class ma use karo or bahar bhi use kr skta hoi via instanceof.
-// Private ma app puri class ma use kr skata ho par bahar nhi use kr skta ho.
+// Private ma app puri class ma use kr skata ho par bahar nhi use kr skta ho. ya extended class ma bhi nhi use kr skta hai
 // Protected class apna class or extended class ma use ho skta hai lekin bahar nhi use ho skta hai.
 
 class BankUser {
@@ -127,6 +127,26 @@ class BankUser {
     }
  }
 
- let a1 = new Admin();
- console.log(a1);
+//  let a1 = new Admin();
+//  console.log(a1);
+
+
+class ABCD{
+    private balance = 12000;
+
+    getBalance(){
+        console.log(this.balance);
+        
+    }
+    setBalance(balance:number){
+        this.balance = balance
+    }
+}
+
+let a1 = new ABCD();
+
+console.log(a1.getBalance() );
+a1.setBalance(100)
+console.log(a1.getBalance());
+
  
