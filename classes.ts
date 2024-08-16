@@ -84,10 +84,49 @@ class Pendrive2 {
     }
 }
 
-let p1 = new Pendrive2();
- console.log(p1.getName());
+// let p1 = new Pendrive2();
+//  console.log(p1.getName());
 
- p1.name = "Super Pendrive";
- console.log((p1));
+//  p1.name = "Super Pendrive";
+//  console.log((p1));
  
+ class User {
+    private name = "Suresh"; //you can not acccess this value outside the class.
+    private balance = 1200;
+    getBalance(){
+        console.log(this.name);
+        
+    }
+ }
+
+ let u1 = new User();
+
+//  u1.balance = 12000 **** this will  throw error because you try to access private member
+
+// u1.getBalance()  
+
+
+//By using inside public method we acces the value this concept is also unkown as:
+// getter method()
+// setter method()
+
+// Public mtlb puri class ma use karo or bahar bhi use kr skta hoi via instanceof.
+// Private ma app puri class ma use kr skata ho par bahar nhi use kr skta ho.
+// Protected
+
+class BankUser {
+    protected balance = 1200;
+   
+ }
+
+ class Admin extends BankUser{
+    private isAdmin = true;
+    getBalance(){
+        console.log(this.balance);
+        
+    }
+ }
+
+ let a1 = new Admin();
+ console.log(a1);
  
