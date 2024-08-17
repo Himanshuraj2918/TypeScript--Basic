@@ -42,3 +42,4 @@ function name3(...names: string[]){
     
 }
 name3("Hare","Krishn","Krishn","Krishn")
+
