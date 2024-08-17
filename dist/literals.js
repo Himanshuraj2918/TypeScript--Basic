@@ -10,3 +10,6 @@ number = 12; // valid
 // ***************String Literals**************
 let stringName;
 // stringName = "Good"  //not valid error
+let stringData;
+stringData = "harish";
+stringData = 12;

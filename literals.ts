@@ -17,3 +17,8 @@ number = 12; // valid
 let stringName: "Harish";
 
 // stringName = "Good"  //not valid error
+
+let stringData : "harish"|12;
+
+stringData ="harish"
+stringData =12;
