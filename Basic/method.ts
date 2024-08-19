@@ -33,6 +33,8 @@ user("Harey",22)
 
 function user1(name:string = "Harey"){
        //If any one not provide parameters it will use default value.
+       console.log(name);
+       
 }
 
 //Rest parameters 
