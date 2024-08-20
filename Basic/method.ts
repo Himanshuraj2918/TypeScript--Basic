@@ -19,6 +19,8 @@ const abcd1 = ():void=>{
 
 //Implict return type Function
 function abcd2(){
+       console.log("Function 2");
+       
 return "hey"
 }
 
