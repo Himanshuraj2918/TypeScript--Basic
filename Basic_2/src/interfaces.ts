@@ -6,19 +6,19 @@ interface User{
 }
 
 
-function isLegal(user:User):boolean{
+function checkAge(user:User):boolean{
     if(user.age>=18)
         return true;
     else
        return false;
 }
 
-function greet(user:User){
+function helloMessage(user:User){
    console.log("hello"+ user.firstName);
    
 }
 
-isLegal({
+checkAge({
     firstName:"himanshu",
     lastName:"Tiwari",
     age:22,
